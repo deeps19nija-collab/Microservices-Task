@@ -105,6 +105,11 @@ cd .\Microservices\
 
   <img width="1428" height="603" alt="image" src="https://github.com/user-attachments/assets/e1c4d3c7-fa05-4139-a4bd-f33bad75bdc5" />
 
+
+  ## Minikube config
+  <img width="1311" height="477" alt="image" src="https://github.com/user-attachments/assets/578539c7-0ba5-4429-8395-d8995b2a825c" />
+
+
   
 
 
