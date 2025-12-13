@@ -66,3 +66,53 @@ This document provides details on testing various services after running the `do
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
+
+--------------------------------------------------------------------------------------------------------------
+## Create the docker file in respective services folders like user-service -> Dockerfile , order-service -> dockerfile etc.   
+## and Build the docker images, tag it and push to docker hub 
+
+termianal command history
+cd .\Microservices\
+  16 cd .\user-service\
+  17 clear
+  18 docker login
+  19 docker build -t deepsjain271/user-service
+  20 docker build -t deepsjain271/user-service .
+  21 clear
+  22 cd ..
+  23 cd prod
+  24 cd .\product-service\
+  25 cles
+  26 clear
+  27 docker build -t deepsjain271/product-service .
+  28 cd ..
+  29 cd .\order-service\
+  30 clear
+  31 docker build -t deepsjain271/order-service .
+  32 cd ..
+  33 cd .\gateway-service\
+  34 docker build -t deepsjain271/gateway-service .
+  35 docker build -t deepsjain271/gateway-service .
+  36 cls 
+  <img width="1286" height="611" alt="image" src="https://github.com/user-attachments/assets/957d56e0-3e15-47e0-a082-44ff9fecaba6" />
+
+  commands 
+  45 docker images
+  46 docker push deepsjain271/user-service:latest
+  47 docker push deepsjain271/product-service:latest
+  48 docker push deepsjain271/order-service:latest
+  49 docker push deepsjain271/gateway-service:latest
+
+  <img width="1428" height="603" alt="image" src="https://github.com/user-attachments/assets/e1c4d3c7-fa05-4139-a4bd-f33bad75bdc5" />
+
+  
+
+
+  
+
+
+  
+
+
+
+
