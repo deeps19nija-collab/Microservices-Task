@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: 
+          image: deepsjain271/user-service:v1
           ports:
             - containerPort: 3000
           env:
