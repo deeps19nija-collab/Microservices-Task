@@ -108,9 +108,29 @@ cd .\Microservices\
 
 
   ## Minikube config  
-  <img width="1311" height="477" alt="image" src="https://github.com/user-attachments/assets/578539c7-0ba5-4429-8395-d8995b2a825c" />  
+  <img width="1311" height="477" alt="image" src="https://github.com/user-attachments/assets/578539c7-0ba5-4429-8395-d8995b2a825c" /> 
+  <img width="540" height="246" alt="image" src="https://github.com/user-attachments/assets/ea698587-3c69-4221-8378-8035ca27309c" />
+
+
+  ## Create the deployments and services as below :
+  https://github.com/deeps19nija-collab/Microservices-Task/tree/main/k8s
+
+  ## Run the command kubectl apply -f .
+  ## check the pods are running 
+
+    kubectl get pods
+
+  <img width="733" height="201" alt="image" src="https://github.com/user-attachments/assets/810c7864-2af7-4431-bb77-611cbc761e55" />
+
+
+  ## Then port-forwrd the gateway-service to check the inter communication through gateway using below command  
+  
+    kubectl port-forward service/gateway-service 3003:3003  
+    
+  <img width="871" height="191" alt="image" src="https://github.com/user-attachments/assets/82c7357a-fba8-42a4-a4ee-d06670c27da3" />
 
   ## Screenshot Inter-Service Communication  
+  
  **Gateway communicates with services using Kubernetes DNS:**  
     http://user-service:3000  
     http://product-service:3001  
