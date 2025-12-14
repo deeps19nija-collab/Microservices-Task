@@ -94,6 +94,7 @@ cd .\Microservices\
   34 docker build -t deepsjain271/gateway-service .  
   35 docker build -t deepsjain271/gateway-service .  
   36 cls  
+  
   <img width="1286" height="611" alt="image" src="https://github.com/user-attachments/assets/957d56e0-3e15-47e0-a082-44ff9fecaba6" />  
   
   **commands **  
@@ -114,8 +115,14 @@ cd .\Microservices\
     http://user-service:3000  
     http://product-service:3001  
     http://order-service:3002  
+
+    
   <img width="593" height="355" alt="image" src="https://github.com/user-attachments/assets/1a7ac820-ee46-454e-9d25-346330f940bb" />
+  
   <img width="751" height="336" alt="image" src="https://github.com/user-attachments/assets/a326b605-b152-4f9a-894b-a880f3ac2da5" />
+  
+  <img width="941" height="367" alt="image" src="https://github.com/user-attachments/assets/8c733b6c-4cda-4363-8071-cf2f562406d7" />
+  
   <img width="696" height="353" alt="image" src="https://github.com/user-attachments/assets/961828d7-497c-42a7-80b6-24112bf14d37" />
 
  **For , order-service there is no data initially, You can add the data through gateway endpoint http://localhost:3003/api/orders as below**  
@@ -125,6 +132,8 @@ cd .\Microservices\
    **Now, again hit the url for order-service you will get the ouptut**  
 
  <img width="1015" height="373" alt="image" src="https://github.com/user-attachments/assets/249943f9-00c8-4337-965c-0d58af54c8a7" />  
+
+ **************************************************************************************************************************************************
 
 
 
