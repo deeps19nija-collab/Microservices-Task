@@ -109,6 +109,27 @@ cd .\Microservices\
   ## Minikube config
   <img width="1311" height="477" alt="image" src="https://github.com/user-attachments/assets/578539c7-0ba5-4429-8395-d8995b2a825c" />
 
+  ## Screenshot Inter-Service Communication
+ **Gateway communicates with services using Kubernetes DNS:**
+    http://user-service:3000
+    http://product-service:3001
+    http://order-service:3002
+  <img width="593" height="355" alt="image" src="https://github.com/user-attachments/assets/1a7ac820-ee46-454e-9d25-346330f940bb" />
+  <img width="751" height="336" alt="image" src="https://github.com/user-attachments/assets/a326b605-b152-4f9a-894b-a880f3ac2da5" />
+  <img width="696" height="353" alt="image" src="https://github.com/user-attachments/assets/961828d7-497c-42a7-80b6-24112bf14d37" />
+
+ **For , order-service there is no data initially, You can add the data through gateway endpoint http://localhost:3003/api/orders as below**
+
+  <img width="986" height="787" alt="image" src="https://github.com/user-attachments/assets/d166faff-1bee-40e5-b188-4714018cf04c" />
+  
+   **Now, again hit the url for order-service you will get the ouptut**
+
+ <img width="1015" height="373" alt="image" src="https://github.com/user-attachments/assets/249943f9-00c8-4337-965c-0d58af54c8a7" />
+
+
+
+
+
 
   
 
